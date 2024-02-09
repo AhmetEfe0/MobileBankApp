@@ -1,0 +1,72 @@
+<!-- res/layout/activity_main.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/banktxt"
+        android:layout_width="441dp"
+        android:layout_height="164dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="-50dp"
+        android:elegantTextHeight="false"
+        android:fontFamily="sans-serif-black"
+        android:freezesText="false"
+        android:text="EBANK"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="135sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/girissayfabtn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="#82BDC5"
+        android:text="Giriş Yap"
+        android:textColorHighlight="#9A9A9A"
+        android:textColorLink="#9A9A9A"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayitsayfabtn" />
+
+    <Button
+        android:id="@+id/kayitsayfabtn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="75dp"
+        android:background="#82BDC5"
+        android:text="Kayıt Ol"
+        android:textColorHighlight="#9A9A9A"
+        android:textColorLink="#9A9A9A"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="181dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="İyi Günler"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banktxt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
