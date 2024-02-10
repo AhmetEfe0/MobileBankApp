@@ -6,7 +6,7 @@
 ![Screenshot_1707506085](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/bdbc771e-3039-43db-a128-3f41d7b6d2ce)
 ![Screenshot_1707506097](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/5e08e158-0a74-44e7-8813-27c17f0dc6d9)
 ![Screenshot_1707506110](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/295fd8ca-2c75-4286-90a5-27769d9f8d71)
-![Screenshot_1707506114](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/e0e7385e-7f3f-43d9-a3d0-c7c239635f87)
+![Screenshot_1707563694](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/745afed7-e309-45f9-918f-8beb1cd9fa08)
 ![Screenshot_1707506130](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/53e21987-8c3e-4d86-a694-fa669da4a8e1)
 ![Screenshot_1707506138](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/e00e05e3-03bb-4da3-b458-b1f0421c06f5)
 ![Screenshot_1707506140](https://github.com/AhmetEfe0/MobileBankApp/assets/153273790/a91a20c0-58a2-4197-b042-13a4d1391991)
