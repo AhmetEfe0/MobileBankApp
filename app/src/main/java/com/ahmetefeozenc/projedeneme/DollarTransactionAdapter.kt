@@ -1,6 +1,7 @@
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.ahmetefeozenc.projedeneme.AppHelper
 import com.ahmetefeozenc.projedeneme.DolarTransaction
 import com.ahmetefeozenc.projedeneme.Transaction
 import com.ahmetefeozenc.projedeneme.databinding.ItemDollarTransactionBinding
@@ -14,13 +15,13 @@ class DollarTransactionAdapter(private val transactions: MutableList<DolarTransa
         fun bind(transaction: DolarTransaction) {
             if (transaction.dolaramount.toString() == "1.0") {
                 binding.islemTextView.text = "${transaction.tlamount} Dolar Alım"
-                binding.tldovizmiktarTextView.text = "-${transaction.islem} TL" // Alım için eksi işareti eklendi
+                binding.tldovizmiktarTextView.text = "-${AppHelper.formatBakiye(transaction.islem.toDouble())} TL" // Alım için eksi işareti eklendi
             } else if (transaction.dolaramount.toString() == "0.0") {
                 binding.islemTextView.text = "${transaction.tlamount} Dolar Satım"
-                binding.tldovizmiktarTextView.text = "+${transaction.islem} TL" // Satış için artı işareti eklendi
+                binding.tldovizmiktarTextView.text = "+${AppHelper.formatBakiye(transaction.islem.toDouble())} TL" // Satış için artı işareti eklendi
             } else {
-                binding.islemTextView.text = transaction.islem
-                binding.tldovizmiktarTextView.text = transaction.dolaramount.toString()
+                binding.islemTextView.text = "${transaction.tlamount}"
+                binding.tldovizmiktarTextView.text = AppHelper.formatBakiye(transaction.islem.toDouble())
             }
         }
     }
